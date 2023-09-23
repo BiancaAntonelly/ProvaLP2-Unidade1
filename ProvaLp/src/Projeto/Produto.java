@@ -5,7 +5,6 @@ class Produto {
     private double preco;
     private String descricao;
     
-
     public Produto(String nomeloja, double preco) {
         this.nomeloja = nomeloja;
         this.preco = preco;
@@ -28,13 +27,11 @@ class Produto {
         this.preco = preco;
     }
 
-    protected String getDescricao() {
+    public String getDescricao() {
         return descricao;
     }
 
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
-	
-    
 }
